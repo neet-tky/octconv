@@ -1,0 +1,9 @@
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd drive/My\ Drive/Colab\ Notebooks/
+%ls
+
+!pip uninstall tensorflow-gpu
+!pip install tensorflow-gpu=='2.0.0a0' tensorboaard
+
